@@ -1,0 +1,6 @@
+the :- NP/N : (lambda $0:<e,t> (lambda $1:e ($0 $1)))
+woman :- N : (person:<e,t>)
+gives :- ((S\NP)/NP)/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:<e,t> (lambda $3:e (lambda $4:e (lambda $5:e (and:<t*,t> ($0 $4) ($1 $5) ($2 $3) (give:<e,<e,<e,t>>> $3 $4 $5))))))))
+man :- N : (person:<e,t>)
+a :- NP/N : (lambda $0:<e,t> (lambda $1:e ($0 $1)))
+pear :- N : (pear:<e,t>)
