@@ -2,6 +2,8 @@
 
 This is the code for our paper at EMNLP 2018, [Grounding language acquisition by training semantic parsers using captioned videos.](https://www.aclweb.org/anthology/D18-1285) Please cite us if you use our code or data and feel free to reach out with any questions.
 
+All code and data are included in this repo except the videos; [download here](https://www.dropbox.com/sh/6r88ojbc2r4poz8/AACUdzb-9Yb5bCs_X38Bkf-ea?dl=0).
+
 
 ## Running the Project
 
@@ -10,9 +12,9 @@ There are two main experiment directories:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;visionparser/ (full supervision)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;groundedvisionparser (weak supervision that uses the videos and sentence tracker)<br>
 
-To download videos, go to [Dropbox](https://www.dropbox.com/sh/6r88ojbc2r4poz8/AACUdzb-9Yb5bCs_X38Bkf-ea?dl=0).
-
 The training and test CCG files are identical except the weakly supervised format does not include the ground truth form.
+
+To download videos, go to [Dropbox](https://www.dropbox.com/sh/6r88ojbc2r4poz8/AACUdzb-9Yb5bCs_X38Bkf-ea?dl=0).
 
 ### Setting up sentence tracker
 This is only necessary when training the model under weak supervision. If you intend to do a fully supervised run as a benchmark, or to use a saved model for either full or weak supervision, you can skip this step.
