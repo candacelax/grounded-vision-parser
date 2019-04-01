@@ -5,7 +5,7 @@ This is the code for our paper [Grounding language acquisition by training seman
 
 ## Running the Project
 ### Eclipse
-Definitely the easiest way to edit and run the code.
+Definitely the easiest way to edit and run all of the Java code.
 #### Installation
 * requires java-oracle-8 (needs Java 8 ./jvm/java-8-openjdk-amd64)
 * http://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-in-ubuntu-16-04-15-10/
@@ -27,20 +27,31 @@ Import project
 Remove ignore line to run a test case; run as J1test.
 
 ### Data
-There are two main experiment directories- visionparser (full supervision) and groundedvisionparser (weak supervision that uses the videos and sentence tracker).
+There are two main experiment directories
+⋅⋅⋅**visionparser/** (full supervision)
+⋅⋅⋅groundedvisionparser (weak supervision that uses the videos and sentence tracker)
+
+The training and test CCG files are identical except the weakly supervised format does not include the ground truth form.
 
 ### Setting up sentence tracker
+This is only necessary when training the model under weak supervision. If you intend to do a fully supervised run as a benchmark, or to use a saved model for either full or weak supervision, you can skip this step.
 
+This tracker is from [Seeing what you’re told: Sentence-guided activity recognition in video](https://arxiv.org/pdf/1308.4189.pdf) and [A compositional framework for grounding language inference, generation, and acquisition in video](https://www.jair.org/index.php/jair/article/view/10938).
 
 ### Running Model
 
-The script _pipeline.sh_ builds the necessary Java code and runs a model from start to finish (this includes training and test).
+The script `pipeline.sh` builds the necessary Java code and runs a model from start to finish (this includes training and test).
 pipeline.sh has many required and optional arguments. Run `pipeline.sh -h` for a detailed description of arguments.
 
 We write (most of) the experiment files from scratch. The **EXPNAME.exp** file is written from scratch. We write a unique file for each fold of the cross-validation, defining the training and test sets.
 
 The libraries and model are recompiled.
 
-sample commands:
-`./pipeline.sh -r RUNNAME -e 5 -g 180 -l 180 -v s -o PORT -O 1 -t w`
-`./pipeline.sh -d visionparser -r testing -e 5 -g 180 -l 180 -v s -t f`
+sample commands:<br>
+`./pipeline.sh -r RUNNAME -e 5 -g 180 -l 180 -v s -o PORT -O 1 -t w`<br>
+`./pipeline.sh -d visionparser -r testing -e 5 -g 180 -l 180 -v s -t f`<br>
+
+
+### Overview of directories
+* `experiments`
+* `st-for-parser`: sentence tracker
