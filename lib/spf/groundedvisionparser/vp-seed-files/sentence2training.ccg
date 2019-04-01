@@ -1,0 +1,8 @@
+there is a green backpack sitting on a yellow chair
+JSON{"video_id":"00043-25850-25920"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (green:<e,t> $0) (bag:<e,t> $0) (sit:<e,t> $0) (on:<e,<e,t>> $0 $1) (yellow:<e,t> $1) (chair:<e,t> $1))))
+
+// GOLD BELOW
+//there is a green backpack sitting on a yellow chair
+//JSON{"video_id":"00043-25850-25920"}
+//(lambda $0:e (lambda $1:e (and:<t*,t> (bag:<e,t> $0) (green:<e,t> $0) (chair:<e,t> $1) (yellow:<e,t> $1) (on:<e,<e,t>> $0 $1))))

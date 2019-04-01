@@ -1,0 +1,8 @@
+the man in a plaid shirt is sliding a green chair to his right
+JSON{"video_id":"00042-44180-44290"}
+(lambda $0:e (lambda $1:e (lambda $2:e (lambda $3:e (and:<t*,t> (person:<e,t> $0) (in:<e,<e,t>> $0 $1) (shirt:<e,t> $1) (plaid:<e,t> $1) (move:<e,<e,t>> $0 $2) (chair:<e,t> $2) (green:<e,t> $2) (to:<e,<e,t>> $2 $3) (right:<e,t> $3))))))
+
+// GOLD BELOW	     
+//the man in the plaid shirt is sliding a green chair to his right
+//JSON{"video_id":"00042-44180-44290"}
+//(lambda $0:e (lambda $1:e (lambda $2:e (lambda $3:e (and:<t*,t> (person:<e,t> $0) (in:<e,<e,t>> $0 $1) (shirt:<e,t> $1) (plaid:<e,t> $1) (move:<e,<e,t>> $0 $2) (chair:<e,t> $2) (green:<e,t> $2) (to:<e,<e,t>> $2 $3) (right:<e,t> $3))))))

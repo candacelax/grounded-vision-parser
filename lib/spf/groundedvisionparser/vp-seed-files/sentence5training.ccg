@@ -1,0 +1,7 @@
+a green backpack is near the stairway on the floor
+JSON{"video_id":"00029-4800-4890"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (green:<e,t> $0) (bag:<e,t> $0) (stairs:<e,t> $1) (floor:<e,t> $2) (near:<e,<e,t>> $0 $1) (on:<e,<e,t>> $0 $2)))))
+
+//a green backpack is near the stairway on the floor
+//JSON{"video_id":"00029-4800-4890"}
+//(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (green:<e,t> $0) (bag:<e,t> $0) (stairs:<e,t> $1) (floor:<e,t> $2) (near:<e,<e,t>> $0 $1) (on:<e,<e,t>> $0 $2)))))

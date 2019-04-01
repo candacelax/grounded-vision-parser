@@ -1,0 +1,9 @@
+the woman gives the man a pear
+JSON{"video_id":"/opt_mvi_0005.mp4_14"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (person:<e,t> $1) (pear:<e,t> $2) (give:<e,<e,<e,t>>> $0 $1 $2)))))
+
+
+// GOLD BELOW
+//the woman gives the man a pear
+//JSON{"video_id":"/opt_mvi_0005.mp4_14"}
+//(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (person:<e,t> $1) (pear:<e,t> $2) (give:<e,<e,<e,t>>> $0 $1 $2)))))
