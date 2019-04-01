@@ -6,9 +6,9 @@ This is the code for our paper at EMNLP 2018, [Grounding language acquisition by
 ## Running the Project
 
 ### Data
-There are two main experiment directories
-&nbsp;&nbsp;**visionparser/** (full supervision)<br>
-&nbsp;&nbsp;**groundedvisionparser** (weak supervision that uses the videos and sentence tracker)<br>
+There are two main experiment directories:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**visionparser/** (full supervision)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**groundedvisionparser** (weak supervision that uses the videos and sentence tracker)<br>
 
 The training and test CCG files are identical except the weakly supervised format does not include the ground truth form.
 
