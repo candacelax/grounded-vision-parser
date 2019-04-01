@@ -7,8 +7,6 @@ This is the code for our paper at EMNLP 2018, [Grounding language acquisition by
 ### Eclipse
 Definitely the easiest way to edit and run all of the Java code. This project requires Java 8+ ([installation help](http://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-in-ubuntu-16-04-15-10/)).
 
-gWe modify the [Cornell SPF codebase](https://github.com/clic-lab/spf). A special thank you to them for sharing everything.
-
 Once Eclipse is installed, open and load the project. Add classpath variable<br>
 * `Window -> Preferences -> Java -> Build Path -> Classpath Variables`<br>
 * new variable named TINY_REPO; set path to **lib/spf<br>**
@@ -19,6 +17,8 @@ Import project
   * import dependencies (select lib/spf & select nested directories)
 
 Remove ignore line to run a test case; run as J1test.
+
+We modify the [Cornell SPF codebase](https://github.com/clic-lab/spf)- (a special thank you for publicly sharing your code!)
 
 ### Data
 There are two main experiment directories
