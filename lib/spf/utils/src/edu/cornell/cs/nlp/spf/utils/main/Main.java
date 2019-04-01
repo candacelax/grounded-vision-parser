@@ -22,7 +22,6 @@ import edu.cornell.cs.nlp.spf.geoquery.GeoMain;
 import edu.cornell.cs.nlp.spf.utils.parse.ParseUtil;
 import edu.mit.cs.infolab.groundedvisionparser.GroundedVisionParserMain;
 import edu.mit.cs.infolab.visionparser.VisionParserMain;
-import frogscorpus.FrogsCorpusMain;
 
 
 
@@ -51,8 +50,6 @@ public class Main {
 				GroundedVisionParserMain.main(args);
 			} else if (args[1].equals("geoquery")){
 				GeoMain.main(args);
-			}else if (args[1].equals("frogscorpus")){
-				FrogsCorpusMain.main(args);
 			}
 			else{
 				throw new IOException("Unrecognized dataset!");
