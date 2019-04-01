@@ -1,0 +1,7 @@
+(
+
+c  // Special type for coordinators 
+g  // Type that represents super class of all types
+rel // Relational type that represents relationships
+
+)

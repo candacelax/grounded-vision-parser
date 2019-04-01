@@ -1,0 +1,34 @@
+(
+
+conj:c
+disj:c
+
+// Action verbs
+on:<e,<e,t>>
+// $0 next to $1
+next_to:<e,<e,t>>
+// $0 goes to $1
+goes_to:<e,<e,t>>
+of:<e,<e,t>>
+move:<e,<e,t>>
+look_at:<e,<e,t>>
+pick_up:<e,<e,t>>
+leave:<e,<e,t>>
+wear:<e,<e,t>>
+in:<e,<e,t>>
+hold:<e,<e,t>>
+put_down:<e,<e,t>>
+// $0 left of $1
+left_to:<e,<e,t>>
+right_to:<e,<e,t>>
+
+// $0 behind the $1 
+behind:<e,<e,t>>
+
+// $0 is near the $1
+near:<e,<e,t>>
+
+// $0 is in front of $1
+in-front-of:<e,<e,t>>
+
+)
