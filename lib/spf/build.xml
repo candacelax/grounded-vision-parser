@@ -29,7 +29,6 @@
       <fileset dir="${src.visionparser}" includes="**/*.java" />
       <fileset dir="${src.groundedvisionparser}" includes="**/*.java" />
       <fileset dir="${src.geoquery}" includes="**/*.java" />
-      <fileset dir="${src.frogscorpus}" includes="**/*.java" />
       <fileset dir="${src.ccg}" includes="**/*.java" />
       <fileset dir="${src.ccg.lexicon}" includes="**/*.java" />
       <fileset dir="${src.ccg.lexicon.factored.lambda}" includes="**/*.java" />
