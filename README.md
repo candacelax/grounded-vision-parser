@@ -10,6 +10,8 @@ There are two main experiment directories:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;visionparser/ (full supervision)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;groundedvisionparser (weak supervision that uses the videos and sentence tracker)<br>
 
+To download videos, go to [Dropbox](https://www.dropbox.com/sh/6r88ojbc2r4poz8/AACUdzb-9Yb5bCs_X38Bkf-ea?dl=0).
+
 The training and test CCG files are identical except the weakly supervised format does not include the ground truth form.
 
 ### Setting up sentence tracker
