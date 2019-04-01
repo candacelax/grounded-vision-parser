@@ -1,21 +1,15 @@
 # Grounded semantic parser
 
-This is the code for our paper at EMNLP 2018, [Grounding language acquisition by training semantic parsers using captioned videos.](https://www.aclweb.org/anthology/D18-1285). Please cite us if you use our code or data and feel free to reach out with any questions.
+This is the code for our paper at EMNLP 2018, [Grounding language acquisition by training semantic parsers using captioned videos.](https://www.aclweb.org/anthology/D18-1285) Please cite us if you use our code or data and feel free to reach out with any questions.
 
 
 ## Running the Project
 ### Eclipse
-Definitely the easiest way to edit and run all of the Java code.
-#### Installation
-* requires java-oracle-8 (needs Java 8 ./jvm/java-8-openjdk-amd64)
-* http://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-in-ubuntu-16-04-15-10/
-* follow this page for remote Eclipse: https://bugs.launchpad.net/ubuntu/+source/libepoxy/+bug/1574886
+Definitely the easiest way to edit and run all of the Java code. This project requires Java 8+ ([installation help](http://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-in-ubuntu-16-04-15-10/)).
 
-#### Loading and Editing Project
-We modifying the Cornell SPF codebase (https://github.com/clic-lab/spf). A special thank you to them for sharing everything.
-Open eclipse `$ECLIPSE [-data WORKSPACE_DIR]`
+gWe modify the [Cornell SPF codebase](https://github.com/clic-lab/spf). A special thank you to them for sharing everything.
 
-Add classpath variable<br>
+Once Eclipse is installed, open and load the project. Add classpath variable<br>
 * `Window -> Preferences -> Java -> Build Path -> Classpath Variables`<br>
 * new variable named TINY_REPO; set path to **lib/spf<br>**
 
