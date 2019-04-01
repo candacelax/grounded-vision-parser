@@ -1,0 +1,1842 @@
+// Total sentences: 618
+// UNKNOWN PREDICATES: set(['around', 'give', 'in_front_of', 'away', 'sit', 'look_at', 'N/A', 'light_haired', 'item', 'TODO', 'dark_haired'])
+
+both men are standing
+JSON{"video_id": "00027-26110-26180"}
+(lambda $0:e (and:<t*,t> (two:<e,t> $0) (person:<p,t> $0) (stand:<p,t> $0)))
+a man sets down a chair in the hall
+JSON{"video_id": "00060-14643-14703"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+the man approaches the chair
+JSON{"video_id": "00022-30540-30620"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man approaches his bag
+JSON{"video_id": "00022-30540-30620"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (bag:<o,t> $1))))
+a man walks to a chair
+JSON{"video_id": "00022-30540-30620"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a bag is on a chair
+JSON{"video_id": "00022-30540-30620"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (bag:<o,t> $0) (on:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+he walks closer to the chair
+JSON{"video_id": "00022-30540-30620"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+she walks by the table
+JSON{"video_id": "mvi_0005.mp4_5"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (near:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+he swings the bag towards the chair
+JSON{"video_id": "00064-21024-21064"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1) (toward:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+a woman picks up an apple from the table
+JSON{"video_id": "exampleclips.mts_38"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman lifts an apple
+JSON{"video_id": "exampleclips.mts_38"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+the woman picks up an apple
+JSON{"video_id": "exampleclips.mts_38"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+the lady grabs the apple
+JSON{"video_id": "exampleclips.mts_38"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+she picks up an apple off of the table
+JSON{"video_id": "exampleclips.mts_38"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a person gets an apple
+JSON{"video_id": "exampleclips.mts_38"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+the girl picks the apple up off the table
+JSON{"video_id": "exampleclips.mts_38"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+she raises the apple from the table
+JSON{"video_id": "exampleclips.mts_38"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+she lifts the apple from the table
+JSON{"video_id": "exampleclips.mts_38"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+he walks away from the man holding the chair
+JSON{"video_id": "00070-56064-56204"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+another man walks away from the first man
+JSON{"video_id": "00070-56064-56204"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+the man walks away from another man holding a chair
+JSON{"video_id": "00070-56064-56204"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a man holds up a backpack
+JSON{"video_id": "00059-48967-49027"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1))))
+a woman reaches for an apple on the table
+JSON{"video_id": "exampleclips.mts_37"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a guy stands near the chair
+JSON{"video_id": "00029-5650-5730"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (near:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+he moves the chair away from the other man
+JSON{"video_id": "00059-34757-34807"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (from:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+the man walks over to a chair
+JSON{"video_id": "00022-31790-31870"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man is carrying a bag
+JSON{"video_id": "00022-31790-31870"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (bag:<o,t> $1) (hold:<e,<o,t>> $0 $1))))
+a man walks across the hallway
+JSON{"video_id": "00070-27224-27324"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (across:<e,<e,t>> $0 $1) (hallway:<o,t> $1))))
+the man leaves the bag behind
+JSON{"video_id": "00070-27224-27324"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (bag:<o,t> $1))))
+he puts the bag in the chair
+JSON{"video_id": "00030-34660-34770"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (in:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+the man sets a bag down
+JSON{"video_id": "00030-34660-34770"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+a woman places a book on a table
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the lady puts the book down
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+a lady drops a book on a table
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the lady puts the book on the table
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman puts a book down on a table
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a man is holding a chair
+JSON{"video_id": "00023-50100-50140"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (chair:<o,t> $1) (hold:<e,<o,t>> $0 $1))))
+the woman puts a book on the table
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman sets a book down on the table
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman places a book on the table
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman sets a book down on the table
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman lightly sets down the book
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+she places the book on the table
+JSON{"video_id": "exampleclips.mts_35"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the man leaves the bag on the chair
+JSON{"video_id": "00043-30520-30610"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+the other man picks up a chair
+JSON{"video_id": "00059-37947-38017"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+the man with the bag walks to the other man
+JSON{"video_id": "00070-47754-47874"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+a woman walks away from a table
+JSON{"video_id": "mvi_0005.mp4_5"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+she walks by a table
+JSON{"video_id": "mvi_0005.mp4_5"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (near:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+the woman puts a book on the other book
+JSON{"video_id": "exampleclips.mts_59"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (book:<o,t> $2)))))
+a man is walking toward another man
+JSON{"video_id": "00022-37380-37460"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man walks across the hallway away from another man
+JSON{"video_id": "00070-47024-47124"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (across:<e,<e,t>> $0 $1) (hallway:<o,t> $1) (from:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+one man walks away from a second man
+JSON{"video_id": "00070-47024-47124"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man holding a backpack walks away from another man
+JSON{"video_id": "00070-47024-47124"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0) (from:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+the second man picks up a backpack
+JSON{"video_id": "00024-8630-8690"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+a man places his backpack in the hallway
+JSON{"video_id": "00059-42467-42507"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+the people are standing
+JSON{"video_id": "00064-52978-53018"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0)))
+a male with a backpack walks over to another male
+JSON{"video_id": "00043-48410-48530"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+a man lifts a chair in the middle of the hall
+JSON{"video_id": "00029-6210-6290"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<e,t>> $1 $2) (hallway:<o,t> $2)))))
+a woman is standing near a table
+JSON{"video_id": "mvi_0005.mp4_23"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (near:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a man is walking across the hallway with a chair
+JSON{"video_id": "00022-14380-14450"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (across:<e,<e,t>> $0 $1) (hallway:<o,t> $1) (with:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+a man carries a chair towards another man
+JSON{"video_id": "00022-14380-14450"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+a man takes a chair to another man
+JSON{"video_id": "00022-14380-14450"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+a man puts a bag on the chair
+JSON{"video_id": "00031-6120-6210"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+a man moves his book bag away from another man
+JSON{"video_id": "00024-1700-1790"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1) (from:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+one man walks from the other man
+JSON{"video_id": "00070-48554-48664"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+the man holding the bag walks from the other man
+JSON{"video_id": "00070-48554-48664"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0) (from:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+one man is moving towards the chair
+JSON{"video_id": "00070-25814-25914"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+both men walk away from the chair
+JSON{"video_id": "00069-8122-8232"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (two:<e,t> $0) (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+they lower the backpack to the ground
+JSON{"video_id": "00068-17417-17537"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (toward:<e,<e,t>> $1 $2) (floor:<e,t> $2)))))
+men in a hall put down a bag
+JSON{"video_id": "00068-17417-17537"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1) (put_down:<a,<o,t>> $0 $2) (bag:<o,t> $2)))))
+a man moves a toy car across the table
+JSON{"video_id": "mvi_0005.mp4_6"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the guy moves the toy car on the table
+JSON{"video_id": "mvi_0005.mp4_6"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+he moves the car
+JSON{"video_id": "mvi_0005.mp4_6"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (car:<o,t> $1))))
+a man walks away from a chair
+JSON{"video_id": "00022-21020-21130"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man walks from a chair
+JSON{"video_id": "00022-21020-21130"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a guy leaves his bag in a chair
+JSON{"video_id": "00022-21020-21130"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (bag:<o,t> $1) (in:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a man leaves his bag in a chair
+JSON{"video_id": "00022-21020-21130"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (bag:<o,t> $1) (in:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a man leaves a bag on the chair
+JSON{"video_id": "00022-21020-21130"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+a person leaves his bag in a chair
+JSON{"video_id": "00022-21020-21130"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (bag:<o,t> $1) (in:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a man walks from a bag on the chair
+JSON{"video_id": "00022-21020-21130"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+he picks the chairs up
+JSON{"video_id": "00042-47220-47300"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man walks across the hall
+JSON{"video_id": "00070-55584-55704"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (across:<e,<e,t>> $0 $1) (hallway:<o,t> $1))))
+a man is walking away
+JSON{"video_id": "00070-55584-55704"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0)))
+he is holding the chair
+JSON{"video_id": "00064-13494-13574"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man is holding a chair in a hallway
+JSON{"video_id": "00064-13494-13574"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $0 $2) (hallway:<o,t> $2)))))
+a man stands in the hall with a chair
+JSON{"video_id": "00064-13494-13574"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1) (with:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+the man puts the chair on the ground
+JSON{"video_id": "00024-15640-15720"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (chair:<o,t> $1) (on:<e,<e,t>> $1 $2) (floor:<e,t> $2)))))
+there's a man standing in the middle of the hallway
+JSON{"video_id": "00024-15640-15720"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (in:<e,<e,t>> $0 $1) (hallway:<o,t> $1))))
+a man is standing in a hall
+JSON{"video_id": "00064-37108-37178"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1))))
+he lifts the chair
+JSON{"video_id": "00064-37108-37178"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+the man in the middle of the hall puts down the chair
+JSON{"video_id": "00024-12280-12350"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (in:<e,<e,t>> $0 $1) (hallway:<o,t> $1) (put_down:<a,<o,t>> $0 $2) (chair:<o,t> $2)))))
+a man slides his chair towards another man
+JSON{"video_id": "00024-5450-5510"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+she sets the apple down
+JSON{"video_id": "exampleclips.mts_50"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+a woman places an apple on a table
+JSON{"video_id": "exampleclips.mts_50"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a person sets an apple down on the table
+JSON{"video_id": "exampleclips.mts_50"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a lady puts an apple on the wood table
+JSON{"video_id": "exampleclips.mts_50"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+he walks away from the chair
+JSON{"video_id": "00070-25194-25264"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a lady touches a book
+JSON{"video_id": "exampleclips.mts_55"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (touch:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+a woman scoots a book
+JSON{"video_id": "exampleclips.mts_55"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+the woman grabs a book on the table
+JSON{"video_id": "exampleclips.mts_55"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman is touching one book
+JSON{"video_id": "exampleclips.mts_55"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (touch:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+the woman reaches for a book on the table
+JSON{"video_id": "exampleclips.mts_55"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+there is a guy standing
+JSON{"video_id": "00029-1940-2010"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0)))
+a man is holding the bag
+JSON{"video_id": "00058-34328-34408"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1))))
+a man moves a chair across the hallway
+JSON{"video_id": "00064-22074-22154"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (across:<e,<e,t>> $1 $2) (hallway:<o,t> $2)))))
+the man slides the chair
+JSON{"video_id": "00064-22074-22154"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+the woman drops an apple on the table
+JSON{"video_id": "exampleclips.mts_44"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman drops the apple
+JSON{"video_id": "exampleclips.mts_44"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+the woman drops the apple on to the table
+JSON{"video_id": "exampleclips.mts_44"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman drops an apple on a table
+JSON{"video_id": "exampleclips.mts_44"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the lady drops the apple on the table
+JSON{"video_id": "exampleclips.mts_44"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a man walks up to another man in the hall
+JSON{"video_id": "00022-15960-16040"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+a man walks towards another man holding a backpack
+JSON{"video_id": "00022-15960-16040"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+the bag is on the chair
+JSON{"video_id": "00043-21180-21280"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (bag:<o,t> $0) (on:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+one person is standing
+JSON{"video_id": "00043-21180-21280"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0)))
+the man is lifting up a chair
+JSON{"video_id": "00043-21180-21280"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man swings his bag in the hall
+JSON{"video_id": "00028-33600-33650"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+he moves the bag away from the chair
+JSON{"video_id": "00028-33600-33650"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1) (from:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+a man moves a backpack closer to a chair
+JSON{"video_id": "00064-22354-22424"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1) (toward:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+the lady walks over to the desk
+JSON{"video_id": "mvi_0005.mp4_11"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a woman walks to a table
+JSON{"video_id": "mvi_0005.mp4_11"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+the man holds out the bag
+JSON{"video_id": "00029-2580-2650"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1))))
+the man swings the bag towards the chair
+JSON{"video_id": "00029-2580-2650"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1) (toward:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+the man is swinging the book bag
+JSON{"video_id": "00029-2580-2650"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+a woman puts an apple down on the table
+JSON{"video_id": "exampleclips.mts_47"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+he grabs the bag
+JSON{"video_id": "00064-26944-27024"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+a man is holding an office chair
+JSON{"video_id": "00022-36370-36460"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man is walking away from another man
+JSON{"video_id": "00058-23698-23778"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a woman walks to a chair near a table
+JSON{"video_id": "exampleclips.mts_36"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (near:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+they walk to the table
+JSON{"video_id": "exampleclips.mts_36"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+the woman walks to a chair
+JSON{"video_id": "exampleclips.mts_36"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+she approaches the apple on the table
+JSON{"video_id": "exampleclips.mts_36"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman approaches a table
+JSON{"video_id": "exampleclips.mts_36"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a man is holding a bag
+JSON{"video_id": "00023-41380-41440"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (bag:<o,t> $1) (hold:<e,<o,t>> $0 $1))))
+he is sliding the chair towards the man
+JSON{"video_id": "00023-41380-41440"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+a man is sliding the chair
+JSON{"video_id": "00023-41380-41440"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (chair:<o,t> $1) (move:<a,<o,t>> $0 $1))))
+a man is standing in the middle of a hallway
+JSON{"video_id": "00024-2810-2910"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (in:<e,<e,t>> $0 $1) (hallway:<o,t> $1))))
+a man takes a toy car from a woman
+JSON{"video_id": "mvi_0005.mp4_18"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (from:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+the man leaves the chair with the bag
+JSON{"video_id": "00058-37248-37328"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (chair:<o,t> $1) (with:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+the guy walks away from the chair
+JSON{"video_id": "00058-37248-37328"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man walks away from the chair
+JSON{"video_id": "00058-37248-37328"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man walks up to the chair
+JSON{"video_id": "00022-56050-56120"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man walks toward a chair in the hall
+JSON{"video_id": "00022-56050-56120"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+a man walks to the chair
+JSON{"video_id": "00022-56050-56120"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a woman slides a book across the table
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman moves a book on a table
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman moves a book across the table
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman slides the book across the table
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+she slides the book across the table
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a girl slides a book across the table
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a lady slides a book across the table
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman walks back to the desk
+JSON{"video_id": "mvi_0005.mp4_10"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a woman grabs a toy car off the desk
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (car:<o,t> $1) (toy:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman picks up a toy car from the table
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman takes a toy off the table
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman picks up the toy car from the table
+JSON{"video_id": "mvi_0005.mp4_18"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the man takes the toy from the woman
+JSON{"video_id": "mvi_0005.mp4_18"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (from:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+he moves the bag closer to the other man
+JSON{"video_id": "00060-643-743"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+the woman lifts the apple
+JSON{"video_id": "exampleclips.mts_43"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+the woman picks the apple up off the table
+JSON{"video_id": "exampleclips.mts_43"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman picks up the apple
+JSON{"video_id": "exampleclips.mts_43"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+the girl lifts the apple from the table
+JSON{"video_id": "exampleclips.mts_43"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the man is walking towards the other man with a rod
+JSON{"video_id": "00043-46630-46770"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (with:<e,<e,t>> $1 $2) (telescope:<o,t> $2)))))
+a woman grabs a car off a table
+JSON{"video_id": "mvi_0005.mp4_1"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (car:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the men step toward the chairs
+JSON{"video_id": "00042-4820-4930"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man is holding a chair
+JSON{"video_id": "00028-42130-42170"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (chair:<o,t> $1) (hold:<e,<o,t>> $0 $1))))
+the lady moves the book
+JSON{"video_id": "exampleclips.mts_60"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+he picks up the scope
+JSON{"video_id": "00030-42930-43070"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (telescope:<o,t> $1))))
+he grabs the scope
+JSON{"video_id": "00030-42930-43070"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (telescope:<o,t> $1))))
+a man is swinging his backpack
+JSON{"video_id": "00060-963-1053"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+a man picks up a backpack
+JSON{"video_id": "00023-39640-39680"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+the woman grabs the apple off the table
+JSON{"video_id": "exampleclips.mts_45"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a lady grabs an apple from a wooden table
+JSON{"video_id": "exampleclips.mts_45"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman takes an apple off the table
+JSON{"video_id": "exampleclips.mts_45"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman reaches for the apple on the table
+JSON{"video_id": "exampleclips.mts_45"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman removes an apple from the table
+JSON{"video_id": "exampleclips.mts_45"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+he holds the chair up in the corridor
+JSON{"video_id": "00028-42130-42170"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+he holds the chair in the hallway
+JSON{"video_id": "00028-42130-42170"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $0 $2) (hallway:<o,t> $2)))))
+the man holds the chair up
+JSON{"video_id": "00028-42130-42170"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+they each walk away from the bag
+JSON{"video_id": "00069-6272-6372"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (bag:<o,t> $1))))
+a man picks up a chair
+JSON{"video_id": "00028-38250-38330"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man is picking up a chair in the hallway
+JSON{"video_id": "00028-38250-38330"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $0 $2) (hallway:<o,t> $2)))))
+a man picks up a wooden chair
+JSON{"video_id": "00028-38250-38330"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+he walks near the chair
+JSON{"video_id": "00022-31600-31680"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (near:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man walks over to the chair
+JSON{"video_id": "00022-31600-31680"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+he walks up to the chair
+JSON{"video_id": "00022-31600-31680"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man steps toward the chair
+JSON{"video_id": "00022-31600-31680"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+one man moves the chair
+JSON{"video_id": "00059-32637-32737"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+one man is moving the chair
+JSON{"video_id": "00059-32637-32737"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+a woman stands up from her chair
+JSON{"video_id": "exampleclips.mts_48"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a woman stands up
+JSON{"video_id": "exampleclips.mts_48"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0)))
+the men hold up the chair in the hall
+JSON{"video_id": "00068-947-1027"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+a man slides a chair over
+JSON{"video_id": "00024-3010-3090"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (chair:<o,t> $1) (move:<a,<o,t>> $0 $1))))
+there is a backpack on the chair
+JSON{"video_id": "00043-33430-33540"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (bag:<o,t> $0) (chair:<o,t> $1) (on:<e,<e,t>> $0 $1))))
+the woman moves a toy on the table
+JSON{"video_id": "mvi_0005.mp4_2"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (toy:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a women moves a car
+JSON{"video_id": "mvi_0005.mp4_2"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (car:<o,t> $1))))
+the woman moves a toy car on the table
+JSON{"video_id": "mvi_0005.mp4_2"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the girl drops the apple
+JSON{"video_id": "mvi_0005.mp4_8"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+he lifts the bag up
+JSON{"video_id": "00024-11040-11100"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+the man is walking towards the chair
+JSON{"video_id": "00022-33380-33460"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man picks up the bag
+JSON{"video_id": "00029-5920-5990"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+a rod is near the chair
+JSON{"video_id": "00029-5920-5990"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (telescope:<o,t> $0) (near:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a woman places a car on a table
+JSON{"video_id": "mvi_0005.mp4_13"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman places a toy car in the middle of the table
+JSON{"video_id": "mvi_0005.mp4_13"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (car:<o,t> $1) (toy:<o,t> $1) (in:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the women places the toy car on the table
+JSON{"video_id": "mvi_0005.mp4_13"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a lady puts a toy car in the middle of a table
+JSON{"video_id": "mvi_0005.mp4_13"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (in:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman puts a toy car in the middle of the table
+JSON{"video_id": "mvi_0005.mp4_13"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (in:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the women is standing near a table
+JSON{"video_id": "mvi_0005.mp4_13"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (near:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+she slides the apple across the table
+JSON{"video_id": "exampleclips.mts_40"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman moves an apple across the table
+JSON{"video_id": "exampleclips.mts_40"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman is standing
+JSON{"video_id": "00022-55360-55440"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0)))
+a man is walking
+JSON{"video_id": "00022-55360-55440"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0)))
+a man is wearing pants
+JSON{"video_id": "00022-55360-55440"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pants:<o,t> $1) (wear:<a,<o,t>> $0 $1))))
+he stands near the chair
+JSON{"video_id": "00022-31790-31870"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (near:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man walks over to a chair
+JSON{"video_id": "00022-31790-31870"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man is walking towards the bag
+JSON{"video_id": "00069-53252-53382"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (bag:<o,t> $1))))
+a man walks to a chair holding a bookbag
+JSON{"video_id": "00022-7250-7360"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+a man walks across a hallway to a chair
+JSON{"video_id": "00022-7250-7360"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (across:<e,<e,t>> $0 $1) (hallway:<o,t> $1) (toward:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+the man moves the chair
+JSON{"video_id": "00060-2433-2533"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+the guys are standing
+JSON{"video_id": "00060-2433-2533"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0)))
+a man is moving his chair towards another man
+JSON{"video_id": "00060-2433-2533"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+there is a guy moving a chair in a hallway
+JSON{"video_id": "00023-34370-34440"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $0 $2) (hallway:<o,t> $2)))))
+the man sets the chair down in the hallway
+JSON{"video_id": "00024-15430-15500"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+a man sets down a chair
+JSON{"video_id": "00024-15430-15500"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+one man walks away from the other man
+JSON{"video_id": "00043-47680-47780"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+the man sets the scope in the chair
+JSON{"video_id": "00067-12854-12954"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (telescope:<o,t> $1) (in:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a man puts a telescope down onto a chair
+JSON{"video_id": "00067-12854-12954"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (telescope:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+a man approaches a table
+JSON{"video_id": "exampleclips.mts_64"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a man walks to a table
+JSON{"video_id": "exampleclips.mts_64"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a woman stands by a table
+JSON{"video_id": "exampleclips.mts_64"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (near:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a lady approaches a table
+JSON{"video_id": "exampleclips.mts_64"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a man walks up to a table
+JSON{"video_id": "exampleclips.mts_64"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+each man is standing by a chair in the hall
+JSON{"video_id": "00042-9650-9780"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (near:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+a woman sets down the apple
+JSON{"video_id": "exampleclips.mts_50"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+the man leaves the chair
+JSON{"video_id": "00043-27880-27980"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man slides a chair in the hall
+JSON{"video_id": "00028-36080-36160"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+he moves the chair away from the bag
+JSON{"video_id": "00028-36080-36160"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (from:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+the man with the bag walks away from the other man
+JSON{"video_id": "00043-48620-48730"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0) (from:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+a man walks across the hallway with a backpack
+JSON{"video_id": "00043-48620-48730"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (across:<e,<e,t>> $0 $1) (hallway:<o,t> $1) (with:<e,<e,t>> $0 $2) (bag:<o,t> $2)))))
+a man with a backpack is walking away from another man
+JSON{"video_id": "00043-48620-48730"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0) (from:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+the man is walking away with a book bag
+JSON{"video_id": "00043-48620-48730"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1))))
+a man moves a chair
+JSON{"video_id": "00029-2360-2440"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (chair:<o,t> $1) (move:<a,<o,t>> $0 $1))))
+a man is standing near a book bag
+JSON{"video_id": "00029-2360-2440"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (near:<e,<e,t>> $0 $1) (bag:<o,t> $1))))
+a man is standing near a chair
+JSON{"video_id": "00029-2360-2440"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (near:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+one man picks up a chair
+JSON{"video_id": "00060-9693-9743"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man is walking towards the other man
+JSON{"video_id": "00043-43960-44080"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a woman touches a book on a table
+JSON{"video_id": "exampleclips.mts_62"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (touch:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a man is holding a bag in the middle of the hall
+JSON{"video_id": "00022-24170-24250"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1) (in:<e,<e,t>> $0 $2) (hallway:<o,t> $2)))))
+a man walks away from the other man
+JSON{"video_id": "00022-24170-24250"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a woman grabs a book on a table
+JSON{"video_id": "exampleclips.mts_55"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+she touches the book
+JSON{"video_id": "exampleclips.mts_55"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (touch:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+a man leaves another man in the hall
+JSON{"video_id": "00070-43044-43164"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (person:<p,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+a bag is on the chair
+JSON{"video_id": "00022-40300-40380"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (bag:<o,t> $0) (chair:<o,t> $1) (on:<e,<e,t>> $0 $1))))
+he holds the chair
+JSON{"video_id": "00064-15034-15064"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+there's a guy holding a chair
+JSON{"video_id": "00064-15034-15064"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man picks up a bag
+JSON{"video_id": "00060-8663-8733"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+the woman is lifting up an apple
+JSON{"video_id": "exampleclips.mts_43"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+she picks the apple up off the table
+JSON{"video_id": "exampleclips.mts_43"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman picks up an apple from the table
+JSON{"video_id": "exampleclips.mts_43"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the girl lifts the apple straight off the table
+JSON{"video_id": "exampleclips.mts_43"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the man walks away from the one holding the bag
+JSON{"video_id": "00058-21618-21708"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+a woman walks by a table
+JSON{"video_id": "exampleclips.mts_36"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (near:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a woman walks by an apple
+JSON{"video_id": "exampleclips.mts_36"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (near:<e,<e,t>> $0 $1) (apple:<o,t> $1))))
+a woman walks by a table with an apple
+JSON{"video_id": "exampleclips.mts_36"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (near:<e,<e,t>> $0 $1) (table:<o,t> $1) (with:<e,<e,t>> $0 $2) (apple:<o,t> $2)))))
+a person walks to a chair by an apple
+JSON{"video_id": "exampleclips.mts_36"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (near:<e,<e,t>> $1 $2) (apple:<o,t> $2)))))
+one man has a chair
+JSON{"video_id": "00063-51179-51259"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a woman puts an apple onto a table
+JSON{"video_id": "exampleclips.mts_42"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman puts down an apple
+JSON{"video_id": "exampleclips.mts_42"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+the woman places an apple on the table
+JSON{"video_id": "exampleclips.mts_42"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman places an apple on the table
+JSON{"video_id": "exampleclips.mts_42"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a lady places an apple on the wood table
+JSON{"video_id": "exampleclips.mts_42"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman puts an apple down on the table
+JSON{"video_id": "exampleclips.mts_42"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a person places an apple on a wooden table
+JSON{"video_id": "exampleclips.mts_42"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a man is holding a backpack
+JSON{"video_id": "00022-47640-47730"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1))))
+one man walks away from another man
+JSON{"video_id": "00022-47640-47730"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man walks away from the man holding the bag
+JSON{"video_id": "00022-47640-47730"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+a guy walks away from the man holding the bag
+JSON{"video_id": "00022-47640-47730"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+a person walks away from the man holding the bag
+JSON{"video_id": "00022-47640-47730"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+he walks away from the man with the backpack
+JSON{"video_id": "00022-47640-47730"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (with:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+the men are lifting the chair
+JSON{"video_id": "00031-36590-36680"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man lifts his bag
+JSON{"video_id": "00060-5753-5813"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+a woman places an apple down on the table
+JSON{"video_id": "mvi_0005.mp4_20"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman places an apple on the desk
+JSON{"video_id": "mvi_0005.mp4_20"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the girl places an apple on the table
+JSON{"video_id": "mvi_0005.mp4_20"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a girl sets an apple down on a table
+JSON{"video_id": "mvi_0005.mp4_20"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a lady puts an apple down quickly
+JSON{"video_id": "mvi_0005.mp4_20"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+a man holds chair in the middle of the hall
+JSON{"video_id": "00022-48310-48390"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<e,t>> $0 $2) (hallway:<o,t> $2)))))
+a man is lifting a backpack from a chair
+JSON{"video_id": "00030-35380-35470"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1) (from:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+the man lifts a bag off the chair
+JSON{"video_id": "00030-35380-35470"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1) (from:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+one guy is standing
+JSON{"video_id": "00070-34674-34774"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0)))
+the guy is lifting the chair
+JSON{"video_id": "00070-34674-34774"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+the man picks up a chair
+JSON{"video_id": "00070-34674-34774"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+one man is holding a chair in a hallway
+JSON{"video_id": "00024-17650-17720"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $0 $2) (hallway:<o,t> $2)))))
+a woman leaves a table
+JSON{"video_id": "exampleclips.mts_63"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+the woman walks away from the chairs
+JSON{"video_id": "exampleclips.mts_63"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man walks from the chair
+JSON{"video_id": "00023-9550-9640"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a backpack is on the chair
+JSON{"video_id": "00070-31414-31554"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (bag:<o,t> $0) (on:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+he walks to a chair
+JSON{"video_id": "00070-31414-31554"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+he approaches the bag on the chair
+JSON{"video_id": "00070-31414-31554"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+there is a bag in the chair
+JSON{"video_id": "00070-31414-31554"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (bag:<o,t> $0) (in:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man walks towards his book bag on a chair
+JSON{"video_id": "00070-31414-31554"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+a man holds a chair
+JSON{"video_id": "00064-38508-38558"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man is standing in the hall
+JSON{"video_id": "00064-38508-38558"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1))))
+he is lifting the chair up
+JSON{"video_id": "00064-38508-38558"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+there are 2 men approaching another man in a hallway
+JSON{"video_id": "00044-24280-24410"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (two:<e,t> $0) (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (person:<p,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+2 guys walk up to a man in a hallway
+JSON{"video_id": "00044-24280-24410"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (two:<e,t> $0) (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+the man in the middle of the hallway lifts the chair
+JSON{"video_id": "00064-26354-26424"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (in:<e,<e,t>> $0 $1) (hallway:<o,t> $1) (pick_up:<a,<o,t>> $0 $2) (chair:<o,t> $2)))))
+the guy picks up the chair in the middle of the hallway
+JSON{"video_id": "00064-26354-26424"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<e,t>> $1 $2) (hallway:<o,t> $2)))))
+the man in the middle of the hall picks up a chair
+JSON{"video_id": "00023-38480-38540"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (in:<e,<e,t>> $0 $1) (hallway:<o,t> $1) (pick_up:<a,<o,t>> $0 $2) (chair:<o,t> $2)))))
+a man is walking towards another man
+JSON{"video_id": "00070-8554-8684"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man holding a rod walks away from a chair
+JSON{"video_id": "00059-1692-1787"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (telescope:<o,t> $1) (walk:<p,t> $0) (from:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+the guy with the scope walks away from the chair
+JSON{"video_id": "00059-1692-1787"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (telescope:<o,t> $1) (walk:<p,t> $0) (from:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+the man with the scope leaves the chair behind
+JSON{"video_id": "00059-1692-1787"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (telescope:<o,t> $1) (leave:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+the man leaves the chair behind
+JSON{"video_id": "00059-1692-1787"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man walks away from the chair in the hall
+JSON{"video_id": "00059-1692-1787"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+both men are in the middle of the hall
+JSON{"video_id": "00042-20360-20450"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (two:<e,t> $0) (person:<p,t> $0) (in:<e,<e,t>> $0 $1) (hallway:<o,t> $1))))
+a man is walking away from a chair
+JSON{"video_id": "00058-15808-15898"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+another man is holding a backpack
+JSON{"video_id": "00063-50219-50289"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1))))
+the man in the hall is holding a bag
+JSON{"video_id": "00029-3260-3330"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1) (hold:<e,<o,t>> $0 $2) (bag:<o,t> $2)))))
+the man walks up to the man holding the chair
+JSON{"video_id": "00022-16660-16755"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+he walks closer to the man with the chair
+JSON{"video_id": "00022-16660-16755"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (with:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+the man lifts the chair
+JSON{"video_id": "00023-38060-38130"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+he moves the chair
+JSON{"video_id": "00024-5020-5090"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+he slides the chair towards the other man
+JSON{"video_id": "00024-5020-5090"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+a man is putting down a chair
+JSON{"video_id": "00028-11020-11090"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (chair:<o,t> $1) (put_down:<a,<o,t>> $0 $1))))
+a man holds a chair in a hallway
+JSON{"video_id": "00043-21280-21350"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+a man holds up a chair in a hallway
+JSON{"video_id": "00043-21280-21350"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+the man is holding a bag
+JSON{"video_id": "00031-27090-27180"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (bag:<o,t> $1) (hold:<e,<o,t>> $0 $1))))
+the woman places the apple down on the table
+JSON{"video_id": "exampleclips.mts_39"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+there is a girl putting an apple on a table
+JSON{"video_id": "exampleclips.mts_39"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a lady puts an apple down on the coffee table
+JSON{"video_id": "exampleclips.mts_39"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a girl is placing an apple on a coffee table
+JSON{"video_id": "exampleclips.mts_39"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman is holding an apple
+JSON{"video_id": "exampleclips.mts_39"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (apple:<o,t> $1))))
+the woman places the apple on the table
+JSON{"video_id": "exampleclips.mts_39"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a man approaches another man
+JSON{"video_id": "00043-48410-48530"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+the woman puts down a toy car on the table
+JSON{"video_id": "mvi_0005.mp4_2"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (car:<o,t> $1) (toy:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman is holding a book
+JSON{"video_id": "exampleclips.mts_57"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (book:<o,t> $1))))
+the man holds a chair with a bag
+JSON{"video_id": "00043-27070-27150"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (with:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+a man slides a chair over to another man
+JSON{"video_id": "00063-21103-21193"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+the man with the scope walks away
+JSON{"video_id": "00070-42604-42704"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (telescope:<o,t> $1) (walk:<p,t> $0))))
+one man holds a chair
+JSON{"video_id": "00043-53360-53470"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+he carries the chair away
+JSON{"video_id": "00043-53360-53470"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man walks towards a chair
+JSON{"video_id": "00043-27590-27730"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the guy walks up to the chair
+JSON{"video_id": "00043-27590-27730"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man walks toward a bag on a chair in a hall
+JSON{"video_id": "00043-27590-27730"}
+(lambda $0:e (lambda $1:e (lambda $2:e (lambda $3:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2) (in:<e,<o,t>> $2 $3) (hallway:<o,t> $3))))))
+the man lifts the bag
+JSON{"video_id": "00024-6600-6670"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+the other man picks up a backpack
+JSON{"video_id": "00024-6600-6670"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+a man holds a chair in the middle of the hall
+JSON{"video_id": "00027-4630-4740"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<e,t>> $0 $2) (hallway:<o,t> $2)))))
+a woman sets an apple down on a table
+JSON{"video_id": "exampleclips.mts_39"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman puts an apple down hesitantly
+JSON{"video_id": "exampleclips.mts_39"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+she places the apple on the table
+JSON{"video_id": "exampleclips.mts_39"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a person puts down an apple
+JSON{"video_id": "exampleclips.mts_39"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+a man lowers the chair to the ground
+JSON{"video_id": "00023-45870-45970"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (floor:<e,t> $2)))))
+a man walks towards the chair
+JSON{"video_id": "00022-53460-53550"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+he lifts up the chair
+JSON{"video_id": "00070-28774-28904"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+there is a bag on the chair
+JSON{"video_id": "00070-28774-28904"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (bag:<o,t> $0) (on:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+he puts his bag down
+JSON{"video_id": "00024-11250-11330"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+the man lowers a bag to the ground
+JSON{"video_id": "00024-11250-11330"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (toward:<e,<e,t>> $1 $2) (floor:<e,t> $2)))))
+he sets the backpack down in the corridor
+JSON{"video_id": "00024-11250-11330"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (in:<e,<o,t>> $0 $2) (hallway:<o,t> $2)))))
+one guy is walking towards a chair
+JSON{"video_id": "00058-5068-5158"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man walks to a chair in the hall
+JSON{"video_id": "00058-5068-5158"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+a man walks over to a backpack
+JSON{"video_id": "00058-5068-5158"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (bag:<o,t> $1))))
+the men walk to their chairs
+JSON{"video_id": "00069-4602-4712"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the men walk to the chairs
+JSON{"video_id": "00069-4602-4712"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a woman is holding a book
+JSON{"video_id": "exampleclips.mts_57"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (book:<o,t> $1))))
+a woman places a book on top of another book
+JSON{"video_id": "exampleclips.mts_57"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (book:<o,t> $2)))))
+a person stacks one book on top of another book
+JSON{"video_id": "exampleclips.mts_57"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (book:<o,t> $2)))))
+the woman puts the book down on the top of another book
+JSON{"video_id": "exampleclips.mts_57"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (book:<o,t> $2)))))
+a man stands in the hall
+JSON{"video_id": "00043-26920-27010"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1))))
+the woman picks up the car
+JSON{"video_id": "mvi_0005.mp4_12"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (car:<o,t> $1))))
+the lady moves the toy car
+JSON{"video_id": "mvi_0005.mp4_12"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1))))
+a woman moves a car
+JSON{"video_id": "mvi_0005.mp4_12"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (car:<o,t> $1))))
+there are 3 cars on the table
+JSON{"video_id": "mvi_0005.mp4_10"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (cars:<o,t> $0) (three:<e,t> $0) (on:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a person holds out a bag towards another man
+JSON{"video_id": "00059-33847-33907"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+a guy holds out a bag towards another man
+JSON{"video_id": "00059-33847-33907"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+he is walking towards the chair
+JSON{"video_id": "00022-9780-9862"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man with the chair walks away from another man
+JSON{"video_id": "00022-25150-25240"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (chair:<o,t> $1) (walk:<p,t> $0) (from:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+a man puts a backpack down on the ground
+JSON{"video_id": "00024-11500-11570"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (floor:<e,t> $2)))))
+a woman throws a toy car down on a table
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman throws a toy car onto a table
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman drops the toy car on the table
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a person drops a car on the table
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a lady drops a car on the table
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman drops a car on the table
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman drops a toy car onto a table
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman walks away from the table
+JSON{"video_id": "exampleclips.mts_48"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+they walk towards the chairs
+JSON{"video_id": "00043-10-90"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+people are walking by the chair
+JSON{"video_id": "00022-19600-19695"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (near:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+he walks away leaving his bag behind
+JSON{"video_id": "00022-19600-19695"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (leave:<e,<e,t>> $0 $1) (bag:<o,t> $1))))
+he picks up the chair
+JSON{"video_id": "00043-35330-35430"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+the man is picking up a chair
+JSON{"video_id": "00043-35330-35430"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+the man lifts up the chair
+JSON{"video_id": "00043-35330-35430"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+the girl walks towards the desk
+JSON{"video_id": "mvi_0005.mp4_11"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a lady walks to a table
+JSON{"video_id": "mvi_0005.mp4_11"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a woman walks to a desk
+JSON{"video_id": "mvi_0005.mp4_11"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+the woman walks to the desk
+JSON{"video_id": "mvi_0005.mp4_11"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+she walks towards the tables
+JSON{"video_id": "mvi_0005.mp4_11"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+another man picks up a backpack
+JSON{"video_id": "00059-39147-39197"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+both persons are standing
+JSON{"video_id": "00063-4463-4553"}
+(lambda $0:e (and:<t*,t> (two:<e,t> $0) (person:<p,t> $0) (stand:<p,t> $0)))
+a man is moving a chair in the hallway
+JSON{"video_id": "00064-23664-23734"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+people are walking in a hall
+JSON{"video_id": "00064-23664-23734"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1))))
+a man pushes a chair towards a bookbag
+JSON{"video_id": "00064-23664-23734"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+a guy slides a chair closer to his bag
+JSON{"video_id": "00064-23664-23734"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (near:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+a person slides a chair closer to his bag
+JSON{"video_id": "00064-23664-23734"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+a man slides a chair closer to his bag
+JSON{"video_id": "00064-23664-23734"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (toward:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+he stands in a hallway near a chair
+JSON{"video_id": "00029-700-750"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1) (near:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+a man is holding a bag in the hallway
+JSON{"video_id": "00029-700-750"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1) (in:<e,<o,t>> $0 $2) (hallway:<o,t> $2)))))
+he is standing up straight
+JSON{"video_id": "00029-35180-35320"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0)))
+the man walks to the chair holding the bag
+JSON{"video_id": "00022-30320-30400"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+the man with the bag walks to the chair
+JSON{"video_id": "00022-30320-30400"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+a woman slides a book across a table
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+she moves the book across the table
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman is moving a book across the table
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman rearranges a book
+JSON{"video_id": "exampleclips.mts_61"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+a man lifts a chair
+JSON{"video_id": "00023-38270-38310"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (chair:<o,t> $1) (pick_up:<a,<o,t>> $0 $1))))
+a man puts down a chair
+JSON{"video_id": "00043-25730-25830"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (chair:<o,t> $1) (put_down:<a,<o,t>> $0 $1))))
+a man is holding a bag in the hall
+JSON{"video_id": "00059-46787-46837"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1) (in:<e,<o,t>> $0 $2) (hallway:<o,t> $2)))))
+there is a person picking up a backpack
+JSON{"video_id": "00028-37750-37820"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+the man is lifting the chair up
+JSON{"video_id": "00029-5140-5230"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man is picking up a chair
+JSON{"video_id": "00029-5140-5230"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+one man is carrying a chair 
+JSON{"video_id": "00058-10788-10878"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a male walks towards another male
+JSON{"video_id": "00058-10788-10878"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+he walks to another man
+JSON{"video_id": "00058-10788-10878"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a girl places a toy car down on a table
+JSON{"video_id": "mvi_0005.mp4_16"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a girl picks up a toy car from a table
+JSON{"video_id": "mvi_0005.mp4_16"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman puts a toy car on a table
+JSON{"video_id": "mvi_0005.mp4_16"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the man is walking away from the other man
+JSON{"video_id": "00022-27970-28060"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man walks away from another male with a bag
+JSON{"video_id": "00058-43768-43813"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (with:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+a guy walks away from another male with a bag
+JSON{"video_id": "00058-43768-43813"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (with:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+a male walks away from another male with a bag
+JSON{"video_id": "00058-43768-43813"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (with:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+the man with the bag walks away
+JSON{"video_id": "00058-43768-43813"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0))))
+a man is holding a book bag
+JSON{"video_id": "00043-50650-50770"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1))))
+a man walks toward another man
+JSON{"video_id": "00043-50650-50770"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man holds a bag out to another man
+JSON{"video_id": "00068-6337-6437"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1) (toward:<e,<e,t>> $1 $2) (person:<p,t> $2)))))
+a woman rearranges an apple on the table
+JSON{"video_id": "exampleclips.mts_37"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+there is a man in the hall holding a chair
+JSON{"video_id": "00022-36750-36850"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1) (hold:<e,<o,t>> $0 $2) (chair:<o,t> $2)))))
+he approaches the man holding the chair
+JSON{"video_id": "00022-36750-36850"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+he walks up to the man holding the chair
+JSON{"video_id": "00022-36750-36850"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a man walks to another man holding a chair
+JSON{"video_id": "00022-36750-36850"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a man is walking to a man holding a chair
+JSON{"video_id": "00022-36750-36850"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a man in the hall is holding a chair
+JSON{"video_id": "00022-36750-36850"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1) (hold:<e,<o,t>> $0 $2) (chair:<o,t> $2)))))
+the man with the scope walks away from the other man
+JSON{"video_id": "00070-44014-44134"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (telescope:<o,t> $1) (walk:<p,t> $0) (from:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+a man put the chair down
+JSON{"video_id": "00028-4160-4250"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+the man walks away from the man with the bag
+JSON{"video_id": "00058-46298-46388"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (with:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+a man walks to a chair in the middle of the hall
+JSON{"video_id": "00043-26470-26570"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<e,t>> $1 $2) (hallway:<o,t> $2)))))
+a man holds up a chair
+JSON{"video_id": "00028-3660-3770"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man lifts up a bag
+JSON{"video_id": "00028-3660-3770"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (bag:<o,t> $1) (pick_up:<a,<o,t>> $0 $1))))
+a woman drops an apple on the table
+JSON{"video_id": "exampleclips.mts_44"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a person drops an apple on the table
+JSON{"video_id": "exampleclips.mts_44"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a lady drops an apple on the table
+JSON{"video_id": "exampleclips.mts_44"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman drops an apple
+JSON{"video_id": "exampleclips.mts_44"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+a woman leaves her chair
+JSON{"video_id": "exampleclips.mts_63"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+she leaves the table
+JSON{"video_id": "exampleclips.mts_63"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a woman leaves the table
+JSON{"video_id": "exampleclips.mts_63"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+the lady walks away from the table
+JSON{"video_id": "exampleclips.mts_63"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+the woman sets the book back on the table
+JSON{"video_id": "exampleclips.mts_60"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+she puts the book on the table
+JSON{"video_id": "exampleclips.mts_60"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the girl puts the book in the middle of the table
+JSON{"video_id": "exampleclips.mts_60"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (in:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a person grabs a book from a table
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman is moving a book
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+a woman picks up a book from the table
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman moves a book
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+a woman picks up a book
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+a woman takes a book from a table
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman picks a book up off the table
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman is lifting a book
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+a woman takes a book off of another book
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (book:<o,t> $2)))))
+a lady drops a toy car
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (car:<o,t> $1) (toy:<o,t> $1))))
+the woman drops the car back onto the table
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (car:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the girl drops the toy car on the desk
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (car:<o,t> $1) (toy:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman throws a toy car on a table
+JSON{"video_id": "mvi_0005.mp4_21"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (car:<o,t> $1) (toy:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a man takes a bag
+JSON{"video_id": "00059-44747-44787"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+the man leaves the chair in the hall
+JSON{"video_id": "00043-23020-23120"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+he leaves the chair behind
+JSON{"video_id": "00043-23020-23120"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a guy walks forward away from his chair
+JSON{"video_id": "00043-23020-23120"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the persons are walking
+JSON{"video_id": "00070-50494-50604"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0)))
+one guy is walking towards the other guy
+JSON{"video_id": "00070-50494-50604"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man walks across the hallway to another man
+JSON{"video_id": "00070-50494-50604"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (across:<e,<e,t>> $0 $1) (hallway:<o,t> $1) (toward:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+a man walks up to another man
+JSON{"video_id": "00070-50494-50604"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+the man is walking towards the other man
+JSON{"video_id": "00043-47510-47640"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man with a bag walks up to another man in the hall
+JSON{"video_id": "00058-12258-12348"}
+(lambda $0:e (lambda $1:e (lambda $2:e (lambda $3:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $2) (person:<p,t> $2) (in:<e,<o,t>> $2 $3) (hallway:<o,t> $3))))))
+a man with a bag walks to another man
+JSON{"video_id": "00058-12258-12348"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+the man with the bag approaches the other man
+JSON{"video_id": "00058-12258-12348"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1) (goes_to:<e,<e,t>> $0 $2) (person:<p,t> $2)))))
+a man walks towards another man holding his backpack up
+JSON{"video_id": "00058-12258-12348"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $0 $2) (bag:<o,t> $2)))))
+the woman picks up a toy car
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1))))
+a woman picks up a car
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (car:<o,t> $1))))
+the woman takes a toy car from the table
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman grabs a toy car
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1))))
+a woman picks up a toy car
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1))))
+the woman takes a toy car off the table
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a person picks a toy car up off of a table
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a lady grabs a toy car
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1))))
+a woman grabs a toy car from the desk
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (toy:<o,t> $1) (car:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman is standing near a table
+JSON{"video_id": "mvi_0005.mp4_7"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (near:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a male walks over to another male
+JSON{"video_id": "00043-10740-10850"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man puts his backpack on a chair
+JSON{"video_id": "00067-26554-26644"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+the man sets his bag in the chair
+JSON{"video_id": "00067-26554-26644"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (in:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a man is walking towards the chair
+JSON{"video_id": "00059-5957-6037"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man walks across the hallway to a chair
+JSON{"video_id": "00059-5957-6037"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (across:<e,<e,t>> $0 $1) (hallway:<o,t> $1) (toward:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+the man with the scope walks up to the chair
+JSON{"video_id": "00059-5957-6037"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (telescope:<o,t> $1) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+he is lifting the bag from the chair
+JSON{"video_id": "00030-34460-34560"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1) (from:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+a man walks in the hall
+JSON{"video_id": "00030-34460-34560"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1))))
+the man lifts the bag from the chair
+JSON{"video_id": "00030-34460-34560"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1) (from:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+the woman puts the book down
+JSON{"video_id": "exampleclips.mts_59"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+the girl places a book on top of another book
+JSON{"video_id": "exampleclips.mts_59"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (book:<o,t> $2)))))
+she stacks a book on top of another book
+JSON{"video_id": "exampleclips.mts_59"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (book:<o,t> $2)))))
+a woman puts a book on another book
+JSON{"video_id": "exampleclips.mts_59"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (book:<o,t> $1) (on:<e,<e,t>> $1 $2) (book:<o,t> $2)))))
+a man moves a bag
+JSON{"video_id": "00064-21784-21854"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+he swings the bag closer to the chair
+JSON{"video_id": "00064-21784-21854"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (bag:<o,t> $1) (toward:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+a man is standing alone
+JSON{"video_id": "00028-43180-43210"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0)))
+the men are holding a bag
+JSON{"video_id": "00031-20400-20460"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1))))
+the man walks across the hall
+JSON{"video_id": "00043-34780-34900"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (across:<e,<e,t>> $0 $1) (hallway:<o,t> $1))))
+he leaves the bag on the chair
+JSON{"video_id": "00043-34780-34900"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+the guy sets the scope down
+JSON{"video_id": "00024-34830-34920"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (telescope:<o,t> $1))))
+a man drops a rod to the ground
+JSON{"video_id": "00024-34830-34920"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (drop:<a,<o,t>> $0 $1) (telescope:<o,t> $1) (toward:<e,<e,t>> $1 $2) (floor:<e,t> $2)))))
+there is a lady standing
+JSON{"video_id": "mvi_0005.mp4_22"}
+(lambda $0:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0)))
+a man is holding a tube
+JSON{"video_id": "00022-56780-56860"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (telescope:<o,t> $1))))
+a man lifting a rod from the ground
+JSON{"video_id": "00024-33230-33310"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (telescope:<o,t> $1) (from:<e,<e,t>> $1 $2) (floor:<e,t> $2)))))
+one man is carrying a chair
+JSON{"video_id": "00028-43180-43210"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man holds a chair up
+JSON{"video_id": "00028-43180-43210"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man stands in the hallway holding a bag
+JSON{"video_id": "00064-28844-28914"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1) (hold:<e,<o,t>> $0 $2) (bag:<o,t> $2)))))
+both men are holding the same chair
+JSON{"video_id": "00068-1287-1397"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (two:<e,t> $0) (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man walks to another man in the hall
+JSON{"video_id": "00043-13750-13880"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+a man sets his backpack down onto a chair
+JSON{"video_id": "00030-35970-36060"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+one man is holding a chair
+JSON{"video_id": "00023-48230-48265"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (chair:<o,t> $1) (hold:<e,<o,t>> $0 $1))))
+the person put the bag on chair
+JSON{"video_id": "00028-35400-35470"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+he walks with the chair
+JSON{"video_id": "00043-54370-54480"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (with:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+he walks over to another man
+JSON{"video_id": "00043-54370-54480"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+the man walks to a chair
+JSON{"video_id": "00023-6290-6370"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man steps up to a chair
+JSON{"video_id": "00023-6290-6370"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+he steps closer to the chair
+JSON{"video_id": "00023-6290-6370"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man goes to a chair in a hall
+JSON{"video_id": "00023-6290-6370"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+he walks toward the chair with the scope
+JSON{"video_id": "00022-53770-53850"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (with:<e,<e,t>> $0 $2) (telescope:<o,t> $2)))))
+the man walks up to the chair with the scope
+JSON{"video_id": "00022-53770-53850"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (with:<e,<e,t>> $0 $2) (telescope:<o,t> $2)))))
+the man walks to the chair in the hall
+JSON{"video_id": "00022-53770-53850"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+he approaches the chair with the scope
+JSON{"video_id": "00022-53770-53850"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (goes_to:<e,<e,t>> $0 $1) (chair:<o,t> $1) (with:<e,<e,t>> $1 $2) (telescope:<o,t> $2)))))
+the man steps toward the chair in the middle of the hall
+JSON{"video_id": "00022-31120-31210"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<e,t>> $1 $2) (hallway:<o,t> $2)))))
+he walks up to the chair in the middle of the hallway
+JSON{"video_id": "00022-31120-31210"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<e,t>> $1 $2) (hallway:<o,t> $2)))))
+the man walks toward the chair
+JSON{"video_id": "00022-31120-31210"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man steps away from a man holding a bag
+JSON{"video_id": "00058-21118-21198"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+a guy steps away from a man holding a bag
+JSON{"video_id": "00058-21118-21198"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+a person steps away from a man holding a bag
+JSON{"video_id": "00058-21118-21198"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+the man leaves the chair holding the bag
+JSON{"video_id": "00058-14948-15038"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (chair:<o,t> $1) (hold:<e,<o,t>> $1 $2) (bag:<o,t> $2)))))
+the man with the bag leaves the chair
+JSON{"video_id": "00058-14948-15038"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (with:<e,<e,t>> $0 $1) (bag:<o,t> $1) (leave:<e,<e,t>> $0 $2) (chair:<o,t> $2)))))
+a man stands in the middle of the hall
+JSON{"video_id": "00023-40800-40870"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (in:<e,<e,t>> $0 $1) (hallway:<o,t> $1))))
+a woman grabs a book
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+a woman lifts a book over a coffee table
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman in a chair lifts up a book
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (in:<e,<o,t>> $0 $1) (chair:<o,t> $1) (pick_up:<a,<o,t>> $0 $2) (book:<o,t> $2)))))
+a person picks a book up from another book
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (book:<o,t> $2)))))
+the person grabs a book off of the table
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman picks up a book off a coffee table
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+she picked up a book from the table
+JSON{"video_id": "exampleclips.mts_58"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+he walks away from the chair with his bag
+JSON{"video_id": "00058-19128-19218"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1) (with:<e,<e,t>> $1 $2) (bag:<o,t> $2)))))
+a woman moves an apple on a wooden table
+JSON{"video_id": "exampleclips.mts_40"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman slides an apple on a coffee table
+JSON{"video_id": "exampleclips.mts_40"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman moves an apple on a table
+JSON{"video_id": "exampleclips.mts_40"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman moves an apple across a table
+JSON{"video_id": "exampleclips.mts_40"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1) (across:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman slides the apple over
+JSON{"video_id": "exampleclips.mts_40"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+a man walks to the chair in the hall
+JSON{"video_id": "00070-36044-36154"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+the guy walks over to the chair
+JSON{"video_id": "00070-36044-36154"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man walks towards his book bag
+JSON{"video_id": "00070-36044-36154"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (bag:<o,t> $1))))
+he walks towards the chair
+JSON{"video_id": "00070-36044-36154"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man is holding a chair in the hall
+JSON{"video_id": "00043-55100-55220"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $0 $2) (hallway:<o,t> $2)))))
+a man walks away from a man holding a chair
+JSON{"video_id": "00043-55100-55220"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+the man is holding onto a chair
+JSON{"video_id": "00043-55100-55220"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (chair:<o,t> $1))))
+he leaves the guy with the chair
+JSON{"video_id": "00043-55100-55220"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (leave:<e,<e,t>> $0 $1) (person:<p,t> $1) (with:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+a person walks away from a person holding a chair
+JSON{"video_id": "00043-55100-55220"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a guy walks away from a person holding a chair
+JSON{"video_id": "00043-55100-55220"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+a man walks away from a person holding a chair
+JSON{"video_id": "00043-55100-55220"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (hold:<e,<o,t>> $1 $2) (chair:<o,t> $2)))))
+the man is walking away from the man with the chair
+JSON{"video_id": "00043-55100-55220"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1) (with:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+the other man walks away from him
+JSON{"video_id": "00043-55100-55220"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man picks up the backpack
+JSON{"video_id": "00030-35590-35680"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+the man puts down a bag
+JSON{"video_id": "00030-35590-35680"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+a man lifts up a chair in the hallway
+JSON{"video_id": "00028-38870-38960"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1) (in:<e,<o,t>> $1 $2) (hallway:<o,t> $2)))))
+the man walks away from the chair
+JSON{"video_id": "00022-40300-40380"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man walks away from his book bag on top of a chair
+JSON{"video_id": "00022-40300-40380"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (bag:<o,t> $1) (on:<e,<e,t>> $1 $2) (chair:<o,t> $2)))))
+a man walks from the chair
+JSON{"video_id": "00022-40300-40380"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (from:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+a man in the hall lifts up a chair
+JSON{"video_id": "00064-27184-27274"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (in:<e,<o,t>> $0 $1) (hallway:<o,t> $1) (pick_up:<a,<o,t>> $0 $2) (chair:<o,t> $2)))))
+a woman picks up an apple
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+a woman holds an apple
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (apple:<o,t> $1))))
+the girl lifts the apple off of the table
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman is picking up an apple
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+a woman picks up an apple from a table
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman picks up an apple off the table
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+an apple is on the table
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (apple:<o,t> $0) (on:<e,<e,t>> $0 $1) (table:<o,t> $1))))
+a woman removes an apple from a table
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+she picks up the apple
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+the woman gets the apple
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+a woman picks an apple up off of a table
+JSON{"video_id": "exampleclips.mts_41"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (apple:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+one man lifts a chair
+JSON{"video_id": "00060-9893-9943"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+the man picks up his bag
+JSON{"video_id": "00064-36828-36928"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (bag:<o,t> $1))))
+a man holding a bag walks from a chair in the hall
+JSON{"video_id": "00058-15538-15648"}
+(lambda $0:e (lambda $1:e (lambda $2:e (lambda $3:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (bag:<o,t> $1) (walk:<p,t> $0) (from:<e,<e,t>> $0 $2) (chair:<o,t> $2) (in:<e,<o,t>> $2 $3) (hallway:<o,t> $3))))))
+she takes the book off of the desk
+JSON{"video_id": "exampleclips.mts_56"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $0 $2) (table:<o,t> $2)))))
+she lifts the book up
+JSON{"video_id": "exampleclips.mts_56"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+the woman picks up a book off the table
+JSON{"video_id": "exampleclips.mts_56"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman holds a book up
+JSON{"video_id": "exampleclips.mts_56"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (hold:<e,<o,t>> $0 $1) (book:<o,t> $1))))
+she picks up a book
+JSON{"video_id": "exampleclips.mts_56"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1))))
+the girl is taking one book  from table
+JSON{"video_id": "exampleclips.mts_56"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+a woman picks up a book off the table
+JSON{"video_id": "exampleclips.mts_56"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the lady picks the book up from the table
+JSON{"video_id": "exampleclips.mts_56"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman takes the book from the table
+JSON{"video_id": "exampleclips.mts_56"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (pick_up:<a,<o,t>> $0 $1) (book:<o,t> $1) (from:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+one man walks towards another man
+JSON{"video_id": "00043-46120-46230"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (walk:<p,t> $0) (toward:<e,<e,t>> $0 $1) (person:<p,t> $1))))
+a man is placing the chair on the ground
+JSON{"video_id": "00023-45310-45390"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (put_down:<a,<o,t>> $0 $1) (chair:<o,t> $1) (on:<e,<e,t>> $1 $2) (floor:<e,t> $2)))))
+she moves the apple
+JSON{"video_id": "exampleclips.mts_53"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+she moves the apple around on the table
+JSON{"video_id": "exampleclips.mts_53"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman moves an apple on the table
+JSON{"video_id": "exampleclips.mts_53"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+she slides the apple on the table
+JSON{"video_id": "exampleclips.mts_53"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1) (on:<e,<e,t>> $1 $2) (table:<o,t> $2)))))
+the woman moves the apple
+JSON{"video_id": "exampleclips.mts_53"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (apple:<o,t> $1))))
+the man is sliding the chair across the ground
+JSON{"video_id": "00028-32800-32890"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (across:<e,<e,t>> $1 $2) (floor:<e,t> $2)))))
+the man pushes the chair
+JSON{"video_id": "00028-32800-32890"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
+a man stands near a chair
+JSON{"video_id": "00028-32800-32890"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (stand:<p,t> $0) (near:<e,<e,t>> $0 $1) (chair:<o,t> $1))))
+the man is moving the chair away from the rod
+JSON{"video_id": "00028-32800-32890"}
+(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1) (from:<e,<e,t>> $1 $2) (telescope:<o,t> $2)))))
+the man slides the chair over
+JSON{"video_id": "00028-32800-32890"}
+(lambda $0:e (lambda $1:e (and:<t*,t> (person:<p,t> $0) (move:<a,<o,t>> $0 $1) (chair:<o,t> $1))))
