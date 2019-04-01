@@ -1,6 +1,6 @@
 # Grounded semantic parser
 
-This is the code for our paper [Grounding language acquisition by training semantic parsers using captioned videos](https://www.aclweb.org/anthology/D18-1285) at EMNLP 2018. Please cite us if you use our code or data and feel free to reach out with any questions.
+This is the code for our paper at EMNLP 2018, [Grounding language acquisition by training semantic parsers using captioned videos.](https://www.aclweb.org/anthology/D18-1285). Please cite us if you use our code or data and feel free to reach out with any questions.
 
 
 ## Running the Project
@@ -52,8 +52,8 @@ The libraries and model are recompiled.
 There are a lot of options for `pipeline.sh` and they're described in the getopts section of the script. 
 
 sample commands:<br>
-`./pipeline.sh -d visionparser -r RUNNAME -e 5 -g 180 -l 180 -v s -t f` (full supervision)<br>
-`./pipeline.sh -d groundedvision parser -r RUNNAME -e 5 -g 180 -l 180 -v s -o PORT -O 1 -t w` (weak supervision)<br>
+`./pipeline.sh -d visionparser -r RUNNAME -v s -t f` (full supervision)<br>
+`./pipeline.sh -d groundedvision parser -r RUNNAME -v s -o PORT -O 1 -t w` (weak supervision)<br>
 
 
 ### Overview of directories

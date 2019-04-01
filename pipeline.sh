@@ -110,15 +110,21 @@ if [[ -v CREATE_PORTS ]]; then
     cd ..
 fi
 
-if [[ ! -v DATASET ]]; then
-    if [[ $SUPERVISION_TYPE == 's' ]]; then
-	DATASET="visionparser"
-    elif [[ $SUPERVISION_TYPE == 'w' ]]; then
-	DATASET="groundedvisionparser"
-    else
-	echo "Error! Cannot infer dataset; explicitly provide"
-    fi
+# defaults for arguments not provided
+if [[ ! -v EPOCHS ]]; then
+    EPOCHS=5
 fi
+
+if [[ ! -v EPOCHS ]]; then
+    EPOCHS=5
+fi
+if [[ ! -v GBEAM ]]; then
+    GBEAM=180
+fi
+if [[ ! -v LEXBEAM ]]; then
+    LEXBEAM=180
+fi
+
 
 # ----- create run directory ----- #
 mkdir -p experiments/runs # this is where all saved runs are stored
