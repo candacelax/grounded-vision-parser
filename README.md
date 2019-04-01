@@ -4,21 +4,6 @@ This is the code for our paper at EMNLP 2018, [Grounding language acquisition by
 
 
 ## Running the Project
-### Eclipse
-Definitely the easiest way to edit and run all of the Java code. This project requires Java 8+ ([installation help](http://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-in-ubuntu-16-04-15-10/)).
-
-Once Eclipse is installed, open and load the project. Add classpath variable<br>
-* `Window -> Preferences -> Java -> Build Path -> Classpath Variables`<br>
-* new variable named TINY_REPO; set path to **lib/spf<br>**
-
-Switch to workspace that differs from our project folder (e.g. eclipse-workspace).<br>
-Import project
-  * select root directory (e.g. working-VisionParser) 
-  * import dependencies (select lib/spf & select nested directories)
-
-Remove ignore line to run a test case; run as J1test.
-
-We modify the [Cornell SPF codebase](https://github.com/clic-lab/spf)- (a special thank you for publicly sharing your code!)
 
 ### Data
 There are two main experiment directories
@@ -53,3 +38,19 @@ sample commands:<br>
 ### Overview of directories
 * `experiments`
 * `st-for-parser`: sentence tracker
+
+### Editing Project
+Definitely the easiest way to edit and run all of the Java code. This project requires Java 8+ ([installation help](http://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-in-ubuntu-16-04-15-10/)).
+
+Once Eclipse is installed, open and load the project. Add classpath variable<br>
+* `Window -> Preferences -> Java -> Build Path -> Classpath Variables`<br>
+* new variable named TINY_REPO; set path to **lib/spf<br>**
+
+Switch to workspace that differs from our project folder (e.g. eclipse-workspace).<br>
+Import project
+  * select root directory (e.g. working-VisionParser) 
+  * import dependencies (select lib/spf & select nested directories)
+
+Remove ignore line to run a test case; run as J1test.
+
+We modify the [Cornell SPF codebase](https://github.com/clic-lab/spf)- (a special thank you for publicly sharing your code!)
