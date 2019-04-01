@@ -1,6 +1,6 @@
 # Grounded semantic parser
 
-This is the code for our paper [Grounding language acquisition by training semantic parsers using captioned videos](https://www.aclweb.org/anthology/D18-1285). Please cite us if you use our code or data and feel free to reach out with any questions.
+This is the code for our paper [Grounding language acquisition by training semantic parsers using captioned videos](https://www.aclweb.org/anthology/D18-1285) at EMNLP 2018. Please cite us if you use our code or data and feel free to reach out with any questions.
 
 
 ## Running the Project
@@ -38,6 +38,8 @@ This is only necessary when training the model under weak supervision. If you in
 
 This tracker is from [Seeing what you’re told: Sentence-guided activity recognition in video](https://arxiv.org/pdf/1308.4189.pdf) and [A compositional framework for grounding language inference, generation, and acquisition in video](https://www.jair.org/index.php/jair/article/view/10938).
 
+
+
 ### Running Model
 
 The script `pipeline.sh` builds the necessary Java code and runs a model from start to finish (this includes training and test).
@@ -47,9 +49,11 @@ We write (most of) the experiment files from scratch. The **EXPNAME.exp** file i
 
 The libraries and model are recompiled.
 
+There are a lot of options for `pipeline.sh` and they're described in the getopts section of the script. 
+
 sample commands:<br>
-`./pipeline.sh -r RUNNAME -e 5 -g 180 -l 180 -v s -o PORT -O 1 -t w`<br>
-`./pipeline.sh -d visionparser -r testing -e 5 -g 180 -l 180 -v s -t f`<br>
+`./pipeline.sh -d visionparser -r RUNNAME -e 5 -g 180 -l 180 -v s -t f` (full supervision)<br>
+`./pipeline.sh -d groundedvision parser -r RUNNAME -e 5 -g 180 -l 180 -v s -o PORT -O 1 -t w` (weak supervision)<br>
 
 
 ### Overview of directories
