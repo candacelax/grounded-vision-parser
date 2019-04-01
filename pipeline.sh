@@ -121,6 +121,7 @@ if [[ ! -v DATASET ]]; then
 fi
 
 # ----- create run directory ----- #
+mkdir -p experiments/runs # this is where all saved runs are stored
 mkdir -p lib/spf/parser.ccg.rules.coordination.lambda/src # until we fix this in build file
 RELATIVE_RUN_DIR=run_$RUN_NAME\_$TIMESTAMP
 CURRENT_RUN_DIR=$VISION_PARSER_DIR/experiments/runs/$RELATIVE_RUN_DIR
