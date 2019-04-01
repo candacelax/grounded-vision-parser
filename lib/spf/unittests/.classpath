@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src-test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/utils"/>
+	<classpathentry exported="true" kind="var" path="TINY_REPO/lib/javautils-lib-3.0.jar" sourcepath="/TINY_REPO/lib/javautils-lib-3.0.jar"/>
+	<classpathentry kind="src" path="/spfbase"/>
+	<classpathentry kind="src" path="/ccg.lexicon"/>
+	<classpathentry kind="src" path="/data.singlesentence.lex"/>
+	<classpathentry kind="src" path="/mr.lambda"/>
+	<classpathentry kind="src" path="/data.singlesentence"/>
+	<classpathentry kind="src" path="/ccg"/>
+	<classpathentry kind="src" path="/mr.lambda.ccg"/>
+	<classpathentry kind="src" path="/ccg.lexicon.factored.lambda"/>
+	<classpathentry kind="src" path="/parser.ccg"/>
+	<classpathentry kind="src" path="/parser.ccg.rules.coordination.lambda"/>
+	<classpathentry kind="src" path="/parser.ccg.lambda"/>
+	<classpathentry kind="src" path="/parser.ccg.rules.lambda"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/parser.ccg.rules"/>
+	<classpathentry kind="src" path="/parser.ccg.rules.skolem"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
