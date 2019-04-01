@@ -1,6 +1,6 @@
 <project name="spf" default="dist" basedir=".">
   <description>
-    Cornell SPF build file
+    Grounded vision parser build file
   </description>
   <!-- set global properties for this build -->
   <!-- getting property file as argument -->
