@@ -1,13 +1,17 @@
 # Grounded semantic parser
 
-## Installing and Using Eclipse
+This is the code for our paper [Grounding language acquisition by training semantic parsers using captioned videos](https://www.aclweb.org/anthology/D18-1285). Please cite us if you use our code or data and feel free to reach out with any questions.
+
+
+## Running the Project
+### Eclipse
 Definitely the easiest way to edit and run the code.
-### Installation
+#### Installation
 * requires java-oracle-8 (needs Java 8 ./jvm/java-8-openjdk-amd64)
 * http://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-in-ubuntu-16-04-15-10/
 * follow this page for remote Eclipse: https://bugs.launchpad.net/ubuntu/+source/libepoxy/+bug/1574886
 
-### Loading Project in Eclipse
+#### Loading and Editing Project
 We modifying the Cornell SPF codebase (https://github.com/clic-lab/spf). A special thank you to them for sharing everything.
 Open eclipse `$ECLIPSE [-data WORKSPACE_DIR]`
 
@@ -22,24 +26,15 @@ Import project
 
 Remove ignore line to run a test case; run as J1test.
 
+### Data
+There are two main experiment directories- visionparser (full supervision) and groundedvisionparser (weak supervision that uses the videos and sentence tracker).
 
-## Data
-**experiments/visionparser**
-**experiments/groundedvisionparser**
-
-## Setting up sentence tracker
+### Setting up sentence tracker
 
 
-## How to Build and Run the code 
-To build the code run `ant dist`, and correspponding distribution .jar file will be generated in `dist/` folder. 
-To run the experiment `java -jar  dist/VisionParser-1.0.jar <.exp file for Experiment>` (Refer to [Cornell SPF] (https://bitbucket.org/yoavartzi/spf#markdown-header-factored-lexicons) for the detailed explanation about .exp files)
+### Running Model
 
-## Modifying the code
-Start from understanding .exp file, and read the `mainclass` variable defined in `build.xml` to find main entry point.
-
-## Running Model
-
-The script _pipeline.sh_ runs a model from start to finish (this includes training and test).
+The script _pipeline.sh_ builds the necessary Java code and runs a model from start to finish (this includes training and test).
 pipeline.sh has many required and optional arguments. Run `pipeline.sh -h` for a detailed description of arguments.
 
 We write (most of) the experiment files from scratch. The **EXPNAME.exp** file is written from scratch. We write a unique file for each fold of the cross-validation, defining the training and test sets.
