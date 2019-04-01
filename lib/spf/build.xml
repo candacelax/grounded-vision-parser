@@ -4,7 +4,6 @@
   </description>
   <!-- set global properties for this build -->
   <!-- getting property file as argument -->
-  <!-- <property file="build.properties.7ca80db1f848120583f09c0fcde84879" /> -->
   <property name="build" location="build" />
   <property name="resources" location="resources" />
   <property name="build.src" location="build.src" />
