@@ -1,7 +1,0 @@
-the chair is green
-JSON{"video_id":"00022-38650-38740"}
-(lambda $0:e (and:<t*,t> (chair:<e,t> $0) (green:<e,t> $0)))
-
-//the chair is green
-//JSON{"video_id":"00022-38650-38740"}
-//(lambda $0:e (and:<t*,t> (chair:<e,t> $0) (green:<e,t> $0)))

@@ -1,3 +1,0 @@
-a woman cautiously grabs an apple off a table
-JSON{"video_id": "/exampleclips.mts_45"}
-(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (pick_up:<e,<e,t>> $0 $1) (apple:<e,t> $1) (from:<e,<e,t>> $1 $2) (table:<e,t> $2)))))

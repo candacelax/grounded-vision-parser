@@ -1,3 +1,0 @@
-the apple is placed on the table
-JSON{"video_id":"/opt_exampleclips.mts_42"}
-(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (put_down:<e,<e,t>> $0 $1) (apple:<e,t> $1) (on:<e,<e,t>> $1 $2) (table:<e,t> $2)))))

@@ -1,3 +1,0 @@
-a man in a grey shirt walks away from a man holding a yellow backpack
-JSON{"video_id": "/opt_00058-21118-21198"}
-(lambda $0:e (lambda $1:e (lambda $2:e (lambda $3:e (and:<t*,t> (person:<e,t> $0) (in:<e,<e,t>> $0 $1) (grey:<e,t> $1) (shirt:<e,t> $1) (walk:<e,t> $0) (from:<e,<e,t>> $0 $2) (person:<e,t> $2) (hold:<e,<e,t>> $2 $3) (yellow:<e,t> $3) (bag:<e,t> $3))))))

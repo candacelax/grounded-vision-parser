@@ -1,8 +1,0 @@
-the man lifting the chair is wearing a plaid shirt
-JSON{"video_id":"00043-53710-53810"}
-(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (chair:<e,t> $1) (plaid:<e,t> $2) (shirt:<e,t> $2) (pick_up:<e,<e,t>> $0 $1) (wear:<e,<e,t>> $0 $2)))))
-
-// GOLD BELOW
-//the man lifting the chair is wearing a plaid shirt
-//JSON{"video_id":"00023-38060-38130"}
-//(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (chair:<e,t> $1) (shirt:<e,t> $2) (plaid:<e,t> $2) (pick_up:<e,<e,t>> $0 $1) (wear:<e,<e,t>> $0 $2)))))

@@ -1,9 +1,0 @@
-a man in a blue jacket is staring at the green office chair
-JSON{"video_id":"00029-29800-29880"}
-(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (in:<e,<e,t>> $0 $1) (blue:<e,t> $1) (shirt:<e,t> $1) (look_at:<e,<e,t>> $0 $2) (green:<e,t> $2) (office:<e,t> $2) (chair:<e,t> $2)))))
-
-
-// GOLD BELOW
-//a man in a blue jacket is staring at the green office chair
-//JSON{"video_id":"00029-29800-29880"}
-//(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (shirt:<e,t> $1) (chair:<e,t> $2) (blue:<e,t> $1) (green:<e,t> $2) (in:<e,<e,t>> $0 $1) (look_at:<e,<e,t>> $0 $2))))) 

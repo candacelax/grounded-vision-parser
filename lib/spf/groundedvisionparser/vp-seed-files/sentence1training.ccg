@@ -1,8 +1,0 @@
-another man watches the man with the bag
-JSON{"video_id":"00024-13920-14020"}
-(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (personn:<e,t> $1) (bag:<e,t> $2) (look_at:<e,<e,t>> $0 $1) (with:<e,<e,t>> $1 $2)))))
-
-
-// GOLD BELOW
-// another man watches the man with the bag
-// (lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (person:<e,t> $1) (bag:<e,t> $2) (with:<e,<e,t>> $1 $2) (look_at:<e,<e,t>> $0 $1)))))

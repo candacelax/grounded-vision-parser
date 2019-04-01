@@ -1,8 +1,0 @@
-the chair and the backpack are green
-JSON{"video_id":"/opt_00022-31600-31680"}
-(lambda $0:e (lambda $1:e (and:<t*,t> (bag:<e,t> $0) (chair:<e,t> $1) (green:<e,t> $0) (green:<e,t> $1))))
-
-// GOLD BELOW
-//the chair and backpack are green
-//JSON{"video_id":"/opt_00022-31600-31680"}
-//(lambda $0:e (lambda $1:e (and:<t*,t> (bag:<e,t> $0) (chair:<e,t> $1) (green:<e,t> $0) (green:<e,t> $1))))

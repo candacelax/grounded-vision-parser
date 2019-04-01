@@ -1,9 +1,0 @@
-a man walks a yellow chair over to another man
-JSON{"video_id":"00043-53710-53810"}
-(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (yellow:<e,t> $1) (chair:<e,t> $1) (person:<e,t> $2) (walk:<e,t> $0) (to:<e,<e,t>> $1 $2)))))
-
-
-// GOLD BELOW
-//a man walks a yellow chair over to another man
-//JSON{"video_id":"00043-53710-53810"}
-//(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (walk:<e,t> $0) (to:<e,<e,t>> $1 $2) (yellow:<e,t> $1) (chair:<e,t> $1) (person:<e,t> $2)))))

@@ -1,3 +1,0 @@
-# Annotation Notes
-## Common Predicates
-## 

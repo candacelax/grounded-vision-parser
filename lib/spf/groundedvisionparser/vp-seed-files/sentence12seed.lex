@@ -1,8 +1,0 @@
-the :- NP/N : (lambda $0:<e,t> (lambda $1:e ($0 $1)))
-guy :- N : (person:<e,t>)
-in :- (NP\NP)/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:e (lambda $3:e (and:<t*,t> ($0 $3) ($1 $2) (in:<e,<e,t>> $2 $3))))))
-plaid :- N/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (plaid:<e,t> $1) ($0 $1))))
-shirt :- N : (shirt:<e,t>)
-picks up :- (S\NP)/NP : (lambda $0:<e,t> (lambda $1:<e,<e,t>> (lambda $2:e (lambda $3:e (lambda $4:e (and:<t*,t> ($1 $2 $3) ($0 $4) (pick_up:<e,<e,t>> $2 $4)))))))
-green :- N/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (green:<e,t> $1))))
-backpack :- N : (bag:<e,t>)

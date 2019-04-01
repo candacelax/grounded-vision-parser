@@ -1,7 +1,0 @@
-the guy in the plaid shirt walks toward the tan chair
-JSON{"video_id":"00043-27590-27730"}
-(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (plaid:<e,t> $1) (shirt:<e,t> $1) (tan:<e,t> $2) (chair:<e,t> $2) (in:<e,<e,t>> $0 $1) (walk:<e,t> $0) (toward:<e,<e,t>> $0 $2)))))
-
-//the guy in the plaid shirt walks towards the tan chair
-//JSON{"video_id":"00043-27590-27730"}
-//(lambda $0:e (lambda $1:e (lambda $2:e (and:<t*,t> (person:<e,t> $0) (shirt:<e,t> $1) (plaid:<e,t> $1) (wear:<e,<e,t>> $0 $1) (chair:<e,t> $2) (brown:<e,t> $2) (goes_to:<e,<e,t>> $0 $2)))))

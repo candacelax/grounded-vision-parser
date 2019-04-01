@@ -1,6 +1,0 @@
-another :- NP/N : (lambda $0:<e,t> (lambda $1:e ($0 $1)))
-man :- N : (person:<e,t>)
-watches :- (S\NP)/NP : (lambda $0:<e,<e,t>> (lambda $1:<e,t> (lambda $2:e (lambda $3:e (lambda $4:e (and:<t*,t> ($1 $2) ($0 $3 $4) (look_at:<e,<e,t>> $2 $3)))))))
-the :- NP\N : (lambda $0:<e,t> (lambda $1:e ($0 $1)))
-with :- (NP\NP)/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:e (lambda $3:e (and:<t*,t> ($0 $3) ($1 $2) (with:<e,<e,t>> $2 $3))))))
-bag :- N : (bag:<e,t>)

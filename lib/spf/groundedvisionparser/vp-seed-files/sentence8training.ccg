@@ -1,8 +1,0 @@
-a woman is standing by a table
-JSON{"video_id": "/opt_mvi_0005.mp4_2"}
-(lambda $0:e (lambda $1:e (and:<t*,t> (person:<e,t> $0) (stand:<e,t> $0) (near:<e,<e,t>> $0 $1) (table:<e,t> $1))))
-
-// GOLD BELOW
-//a woman is standing by a table
-//JSON{"video_id": "/opt_mvi_0005.mp4_2"}
-//(lambda $0:e (lambda $1:e (and:<t*,t> (person:<e,t> $0) (stand:<e,t> $0) (near:<e,<e,t>> $0 $1) (table:<e,t> $1))))

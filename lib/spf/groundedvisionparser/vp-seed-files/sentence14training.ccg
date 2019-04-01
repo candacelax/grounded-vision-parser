@@ -1,9 +1,0 @@
-the man in red is standing very still
-JSON{"video_id":"00044-18180-18320"}
-(lambda $0:e (lambda $1:e (and:<t*,t> (person:<e,t> $0) (in:<e,<e,t>> $0 $1) (red:<e,t> $1) (shirt:<e,t> $1) (stand:<e,t> $0))))
-
-
-// GOLD BELOW
-//the man in red is standing still
-//JSON{"video_id":"00044-18180-18320"}
-//(lambda $0:e (lambda $1:e (and:<t*,t> (person:<e,t> $0) (in:<e,<e,t>> $0 $1) (red:<e,t> $1) (shirt:<e,t> $1) (stand:<e,t> $0))))
